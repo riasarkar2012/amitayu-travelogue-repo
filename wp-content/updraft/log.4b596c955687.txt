@@ -1,0 +1,486 @@
+0000.000 (0) Opened log file at time: Mon, 17 Jul 2017 16:27:27 +0000 on http://amitayu.com
+0000.013 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.4 WP: 4.8 PHP: 5.5.38 (cgi-fcgi, Linux host101.xhostindia.com 2.6.32-696.1.1.el6.x86_64 #1 SMP Tue Apr 11 17:13:24 UTC 2017 x86_64) MySQL: 5.6.35 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 10.6M | 12.3M) multisite: N openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.653 (0) Free space on disk containing Updraft's temporary directory: 79307 MB
+0000.655 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.656 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.706 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1500219599, seconds_ago=89249)
+0000.707 (0) Set semaphore last lock (fd) time to 2017-07-17 16:27:28
+0000.708 (0) Semaphore lock (fd) complete
+0000.711 (0) Backup run: resumption=0, nonce=4b596c955687, begun at=1500308847 (1s ago), job type=backup
+0000.712 (0) Scheduling a resumption (1) after 300 seconds (1500309148) in case this run gets aborted
+0000.734 (0) Checking if we have a zip executable available
+0000.752 (0) Testing: /usr/bin/zip
+0000.782 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.784 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.785 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.786 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.787 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.792 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.793 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.811 (0) Working binary zip found: /usr/bin/zip
+0000.813 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.814 (0) Creation of backups of directories: beginning
+0000.816 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0001.064 (0) Total entities for the zip file: 457 directories, 3849 files (0 skipped as non-modified), 68.7 MB
+0001.069 (0) Zip: backup_2017-07-17-2157_Amitayu_4b596c955687-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.074 (0) Zip: backup_2017-07-17-2157_Amitayu_4b596c955687-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.079 (0) Zip: backup_2017-07-17-2157_Amitayu_4b596c955687-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.083 (0) Zip: backup_2017-07-17-2157_Amitayu_4b596c955687-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.087 (0) Zip: backup_2017-07-17-2157_Amitayu_4b596c955687-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.088 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (13.3 MB, 3849 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0003.396 (0) backup_2017-07-17-2157_Amitayu_4b596c955687-plugins.zip.tmp: size is now: 4.00 MB
+0003.401 (0) Zip: backup_2017-07-17-2157_Amitayu_4b596c955687-plugins.zip.tmp: 600 files added (on-disk size: 4082.4 KB)
+0003.405 (0) Zip: backup_2017-07-17-2157_Amitayu_4b596c955687-plugins.zip.tmp: 700 files added (on-disk size: 4082.4 KB)
+0003.409 (0) Zip: backup_2017-07-17-2157_Amitayu_4b596c955687-plugins.zip.tmp: 800 files added (on-disk size: 4082.4 KB)
+0003.413 (0) Zip: backup_2017-07-17-2157_Amitayu_4b596c955687-plugins.zip.tmp: 900 files added (on-disk size: 4082.4 KB)
+0003.416 (0) Zip: backup_2017-07-17-2157_Amitayu_4b596c955687-plugins.zip.tmp: 1000 files added (on-disk size: 4082.4 KB)
+0003.417 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.7 MB, 3849 files batched, 501 (1002) added so far); re-opening (prior size: 4082.4 KB)
+0004.726 (0) backup_2017-07-17-2157_Amitayu_4b596c955687-plugins.zip.tmp: size is now: 5.30 MB
+0004.733 (0) Zip: backup_2017-07-17-2157_Amitayu_4b596c955687-plugins.zip.tmp: 1100 files added (on-disk size: 5383.9 KB)
+0004.736 (0) Zip: backup_2017-07-17-2157_Amitayu_4b596c955687-plugins.zip.tmp: 1200 files added (on-disk size: 5383.9 KB)
+0004.739 (0) Zip: backup_2017-07-17-2157_Amitayu_4b596c955687-plugins.zip.tmp: 1300 files added (on-disk size: 5383.9 KB)
+0004.743 (0) Zip: backup_2017-07-17-2157_Amitayu_4b596c955687-plugins.zip.tmp: 1400 files added (on-disk size: 5383.9 KB)
+0004.746 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 3849 files batched, 485 (1487) added so far); re-opening (prior size: 5383.9 KB)
+0006.647 (0) backup_2017-07-17-2157_Amitayu_4b596c955687-plugins.zip.tmp: size is now: 16.30 MB
+0006.659 (0) A useful amount of data was added after this amount of zip processing: 2.6 s (normalised: 2.6 s, rate: 9685.8 KB/s)
+0006.660 (0) Performance is good - will increase the amount of data we attempt to batch (time=2.64400911331, normalised_time=2.6430526925, max_time=-1, data points known=0, old_max_bytes=26214400, new_max_bytes=59509369)
+0006.662 (0) Zip: backup_2017-07-17-2157_Amitayu_4b596c955687-plugins.zip.tmp: 1500 files added (on-disk size: 16695.7 KB)
+0006.666 (0) Zip: backup_2017-07-17-2157_Amitayu_4b596c955687-plugins.zip.tmp: 1600 files added (on-disk size: 16695.7 KB)
+0006.669 (0) Zip: backup_2017-07-17-2157_Amitayu_4b596c955687-plugins.zip.tmp: 1700 files added (on-disk size: 16695.7 KB)
+0006.673 (0) Zip: backup_2017-07-17-2157_Amitayu_4b596c955687-plugins.zip.tmp: 1800 files added (on-disk size: 16695.7 KB)
+0006.676 (0) Zip: backup_2017-07-17-2157_Amitayu_4b596c955687-plugins.zip.tmp: 1900 files added (on-disk size: 16695.7 KB)
+0006.679 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4 MB, 3849 files batched, 501 (1988) added so far); re-opening (prior size: 16695.7 KB)
+0008.141 (0) Zip: backup_2017-07-17-2157_Amitayu_4b596c955687-plugins.zip.tmp: 2000 files added (on-disk size: 18652.6 KB)
+0008.145 (0) Zip: backup_2017-07-17-2157_Amitayu_4b596c955687-plugins.zip.tmp: 2100 files added (on-disk size: 18652.6 KB)
+0008.148 (0) Zip: backup_2017-07-17-2157_Amitayu_4b596c955687-plugins.zip.tmp: 2200 files added (on-disk size: 18652.6 KB)
+0008.152 (0) Zip: backup_2017-07-17-2157_Amitayu_4b596c955687-plugins.zip.tmp: 2300 files added (on-disk size: 18652.6 KB)
+0008.155 (0) Zip: backup_2017-07-17-2157_Amitayu_4b596c955687-plugins.zip.tmp: 2400 files added (on-disk size: 18652.6 KB)
+0008.158 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.9 MB, 3849 files batched, 501 (2489) added so far); re-opening (prior size: 18652.6 KB)
+0009.010 (0) Zip: backup_2017-07-17-2157_Amitayu_4b596c955687-plugins.zip.tmp: 2500 files added (on-disk size: 21187.7 KB)
+0009.015 (0) Zip: backup_2017-07-17-2157_Amitayu_4b596c955687-plugins.zip.tmp: 2600 files added (on-disk size: 21187.7 KB)
+0009.019 (0) Zip: backup_2017-07-17-2157_Amitayu_4b596c955687-plugins.zip.tmp: 2700 files added (on-disk size: 21187.7 KB)
+0009.024 (0) Zip: backup_2017-07-17-2157_Amitayu_4b596c955687-plugins.zip.tmp: 2800 files added (on-disk size: 21187.7 KB)
+0009.028 (0) Zip: backup_2017-07-17-2157_Amitayu_4b596c955687-plugins.zip.tmp: 2900 files added (on-disk size: 21187.7 KB)
+0009.031 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.1 MB, 3849 files batched, 501 (2990) added so far); re-opening (prior size: 21187.7 KB)
+0009.306 (0) Zip: backup_2017-07-17-2157_Amitayu_4b596c955687-plugins.zip.tmp: 3000 files added (on-disk size: 25257.6 KB)
+0009.310 (0) Zip: backup_2017-07-17-2157_Amitayu_4b596c955687-plugins.zip.tmp: 3100 files added (on-disk size: 25257.6 KB)
+0009.313 (0) Zip: backup_2017-07-17-2157_Amitayu_4b596c955687-plugins.zip.tmp: 3200 files added (on-disk size: 25257.6 KB)
+0009.317 (0) Zip: backup_2017-07-17-2157_Amitayu_4b596c955687-plugins.zip.tmp: 3300 files added (on-disk size: 25257.6 KB)
+0009.320 (0) Zip: backup_2017-07-17-2157_Amitayu_4b596c955687-plugins.zip.tmp: 3400 files added (on-disk size: 25257.6 KB)
+0009.323 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.1 MB, 3849 files batched, 501 (3491) added so far); re-opening (prior size: 25257.6 KB)
+0009.585 (0) Zip: backup_2017-07-17-2157_Amitayu_4b596c955687-plugins.zip.tmp: 3500 files added (on-disk size: 26866.3 KB)
+0009.589 (0) Zip: backup_2017-07-17-2157_Amitayu_4b596c955687-plugins.zip.tmp: 3600 files added (on-disk size: 26866.3 KB)
+0009.592 (0) Zip: backup_2017-07-17-2157_Amitayu_4b596c955687-plugins.zip.tmp: 3700 files added (on-disk size: 26866.3 KB)
+0009.596 (0) Zip: backup_2017-07-17-2157_Amitayu_4b596c955687-plugins.zip.tmp: 3800 files added (on-disk size: 26866.3 KB)
+0010.101 (0) Created plugins zip (0) - 27389.8 KB in 9.1 s (2998.8 KB/s) (sha1: 0d0d5c3aab541f0a505dabc477401f5dab1772cb, sha256: 703408ac8098eb61e4ac479368f1f27260ee7671b0039edc7abe5f79abead40a)
+0010.103 (0) Beginning creation of dump of themes (split every: 400 MB)
+0010.260 (0) Total entities for the zip file: 169 directories, 1005 files (0 skipped as non-modified), 11 MB
+0010.265 (0) Zip: backup_2017-07-17-2157_Amitayu_4b596c955687-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0010.273 (0) Zip: backup_2017-07-17-2157_Amitayu_4b596c955687-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0010.278 (0) Zip: backup_2017-07-17-2157_Amitayu_4b596c955687-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0010.282 (0) Zip: backup_2017-07-17-2157_Amitayu_4b596c955687-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0010.287 (0) Zip: backup_2017-07-17-2157_Amitayu_4b596c955687-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0010.287 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.9 MB, 1005 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0011.360 (0) backup_2017-07-17-2157_Amitayu_4b596c955687-themes.zip.tmp: size is now: 4.50 MB
+0011.367 (0) Zip: backup_2017-07-17-2157_Amitayu_4b596c955687-themes.zip.tmp: 600 files added (on-disk size: 4621.1 KB)
+0011.373 (0) Zip: backup_2017-07-17-2157_Amitayu_4b596c955687-themes.zip.tmp: 700 files added (on-disk size: 4621.1 KB)
+0011.378 (0) Zip: backup_2017-07-17-2157_Amitayu_4b596c955687-themes.zip.tmp: 800 files added (on-disk size: 4621.1 KB)
+0011.383 (0) Zip: backup_2017-07-17-2157_Amitayu_4b596c955687-themes.zip.tmp: 900 files added (on-disk size: 4621.1 KB)
+0011.388 (0) Zip: backup_2017-07-17-2157_Amitayu_4b596c955687-themes.zip.tmp: 1000 files added (on-disk size: 4621.1 KB)
+0011.389 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4 MB, 1005 files batched, 501 (1002) added so far); re-opening (prior size: 4621.1 KB)
+0012.071 (0) backup_2017-07-17-2157_Amitayu_4b596c955687-themes.zip.tmp: size is now: 5.70 MB
+0012.188 (0) Created themes zip (0) - 5864.6 KB in 2 s (2989.9 KB/s) (sha1: 1172cb99d5fd019898a9ee65b8c17571179ae314, sha256: 4a7d468ff2cb0caa7d242f69ace37c14501cefd6a769f828e0f372f54c5f4a6b)
+0012.190 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0012.191 (0) Looking for candidates to back up in: /home1/amitayuc/public_html/wp-content/uploads
+0012.192 (0) finding files: photo-gallery: adding to list (1)
+0012.192 (0) finding files: 2017: adding to list (2)
+0012.193 (0) finding files: 2016: adding to list (3)
+0012.193 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0012.328 (0) Total entities for the zip file: 13 directories, 299 files (0 skipped as non-modified), 48.6 MB
+0012.333 (0) Zip: backup_2017-07-17-2157_Amitayu_4b596c955687-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0012.338 (0) Zip: backup_2017-07-17-2157_Amitayu_4b596c955687-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0015.483 (0) backup_2017-07-17-2157_Amitayu_4b596c955687-uploads.zip.tmp: size is now: 48.70 MB
+0016.141 (0) Created uploads zip (0) - 49845.2 KB in 3.8 s (13038.6 KB/s) (sha1: c6a87e6ae25c5177358cecd9e4dcc2a204461912, sha256: dfbbde3a9c71e95fdc1b95b0e06b1e3d8a537103439fc6d24026e47b1c1e1cb3)
+0016.143 (0) Beginning backup of other directories found in the content directory (index: 0)
+0016.144 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0016.144 (0) Looking for candidates to back up in: /home1/amitayuc/public_html/wp-content
+0016.145 (0) finding files: languages: adding to list (1)
+0016.145 (0) finding files: gallery: adding to list (2)
+0016.146 (0) finding files: themes: skipping: this is the themes directory
+0016.146 (0) finding files: upgrade: skipping: excluded by options
+0016.147 (0) finding files: wp-cache-config.php: adding to list (3)
+0016.147 (0) finding files: uploads: skipping: this is the uploads directory
+0016.148 (0) finding files: w3tc-config: adding to list (4)
+0016.148 (0) finding files: ngg_styles: adding to list (5)
+0016.149 (0) finding files: wptouch-data: adding to list (6)
+0016.149 (0) finding files: updraft: skipping: this is the updraft directory
+0016.150 (0) finding files: advanced-cache.php: adding to list (7)
+0016.150 (0) finding files: ngg: adding to list (8)
+0016.151 (0) finding files: wflogs: adding to list (9)
+0016.151 (0) finding files: cache: skipping: excluded by options
+0016.152 (0) finding files: index.php: adding to list (10)
+0016.152 (0) finding files: ewww: adding to list (11)
+0016.153 (0) finding files: plugins: skipping: this is the plugins directory
+0016.756 (0) Total entities for the zip file: 75 directories, 106 files (0 skipped as non-modified), 22.9 MB
+0016.761 (0) Zip: backup_2017-07-17-2157_Amitayu_4b596c955687-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0018.570 (0) backup_2017-07-17-2157_Amitayu_4b596c955687-others.zip.tmp: size is now: 20.80 MB
+0018.861 (0) Created others zip (0) - 21340.4 KB in 2.1 s (10087.2 KB/s) (sha1: 2afb7bfff459732fbcd9565ff843943f3a7ae142, sha256: aaa01d026e78fda31caa9cda5a0030af13f52bf4ab06a48ef6be5b6ebab10704)
+0018.865 (0) Saving backup status to database (elements: 8)
+0018.867 (0) Beginning creation of database dump (WordPress DB)
+0018.881 (0) Testing: /usr/bin/mysqldump
+0019.110 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+0019.112 (0) Binary mysqldump: error (code: 2)
+0019.392 (0) Table welovekittuli_options: Total expected rows (approximate): 746
+0019.451 (0) Table welovekittuli_options: Total rows added: 742 in 0.06 seconds
+0019.452 (0) Table welovekittuli_options: finishing file (backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_options.table.gz - 177.1 KB)
+0019.454 (0) Table welovekittuli_users: Total expected rows (approximate): 27
+0019.457 (0) Table welovekittuli_users: Total rows added: 27 in 0.00 seconds
+0019.458 (0) Table welovekittuli_users: finishing file (backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_users.table.gz - 2.9 KB)
+0019.460 (0) Table welovekittuli_usermeta: Total expected rows (approximate): 2703
+0019.503 (0) Table welovekittuli_usermeta: Total rows added: 2703 in 0.04 seconds
+0019.504 (0) Table welovekittuli_usermeta: finishing file (backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_usermeta.table.gz - 18.5 KB)
+0019.520 (0) Table welovekittuli_commentmeta: Total expected rows (approximate): 0
+0019.521 (0) Table welovekittuli_commentmeta: Total rows added: 0 in 0.00 seconds
+0019.522 (0) Table welovekittuli_commentmeta: finishing file (backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_commentmeta.table.gz - 0.4 KB)
+0019.544 (0) Table welovekittuli_comments: Total expected rows (approximate): 0
+0019.546 (0) Table welovekittuli_comments: Total rows added: 0 in 0.00 seconds
+0019.547 (0) Table welovekittuli_comments: finishing file (backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_comments.table.gz - 0.5 KB)
+0019.558 (0) Table welovekittuli_links: Total expected rows (approximate): 0
+0019.560 (0) Table welovekittuli_links: Total rows added: 0 in 0.00 seconds
+0019.560 (0) Table welovekittuli_links: finishing file (backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_links.table.gz - 0.5 KB)
+0019.563 (0) Table welovekittuli_postmeta: Total expected rows (approximate): 773
+0019.587 (0) Table welovekittuli_postmeta: Total rows added: 773 in 0.02 seconds
+0019.588 (0) Table welovekittuli_postmeta: finishing file (backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_postmeta.table.gz - 12 KB)
+0019.590 (0) Table welovekittuli_posts: Total expected rows (approximate): 325
+0019.653 (0) Table welovekittuli_posts: Total rows added: 325 in 0.06 seconds
+0019.655 (0) Table welovekittuli_posts: finishing file (backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_posts.table.gz - 88.2 KB)
+0019.657 (0) Table welovekittuli_term_relationships: Total expected rows (approximate): 44
+0019.659 (0) Table welovekittuli_term_relationships: Total rows added: 44 in 0.00 seconds
+0019.659 (0) Table welovekittuli_term_relationships: finishing file (backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_term_relationships.table.gz - 0.5 KB)
+0019.662 (0) Table welovekittuli_term_taxonomy: Total expected rows (approximate): 7
+0019.663 (0) Table welovekittuli_term_taxonomy: Total rows added: 7 in 0.00 seconds
+0019.664 (0) Table welovekittuli_term_taxonomy: finishing file (backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_term_taxonomy.table.gz - 0.5 KB)
+0019.676 (0) Table welovekittuli_termmeta: Total expected rows (approximate): 0
+0019.678 (0) Table welovekittuli_termmeta: Total rows added: 0 in 0.00 seconds
+0019.678 (0) Table welovekittuli_termmeta: finishing file (backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_termmeta.table.gz - 0.4 KB)
+0019.681 (0) Table welovekittuli_terms: Total expected rows (approximate): 10
+0019.691 (0) Table welovekittuli_terms: Total rows added: 10 in 0.01 seconds
+0019.692 (0) Table welovekittuli_terms: finishing file (backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_terms.table.gz - 0.5 KB)
+0019.710 (0) Table welovekittuli_bwg_album: Total expected rows (approximate): 1
+0019.719 (0) Table welovekittuli_bwg_album: Total rows added: 1 in 0.01 seconds
+0019.720 (0) Table welovekittuli_bwg_album: finishing file (backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_bwg_album.table.gz - 0.4 KB)
+0019.741 (0) Table welovekittuli_bwg_album_gallery: Total expected rows (approximate): 3
+0019.743 (0) Table welovekittuli_bwg_album_gallery: Total rows added: 3 in 0.00 seconds
+0019.744 (0) Table welovekittuli_bwg_album_gallery: finishing file (backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_bwg_album_gallery.table.gz - 0.4 KB)
+0019.747 (0) Table welovekittuli_bwg_gallery: Total expected rows (approximate): 3
+0019.757 (0) Table welovekittuli_bwg_gallery: Total rows added: 3 in 0.01 seconds
+0019.758 (0) Table welovekittuli_bwg_gallery: finishing file (backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_bwg_gallery.table.gz - 0.5 KB)
+0019.762 (0) Table welovekittuli_bwg_image: Total expected rows (approximate): 21
+0019.766 (0) Table welovekittuli_bwg_image: Total rows added: 21 in 0.00 seconds
+0019.766 (0) Table welovekittuli_bwg_image: finishing file (backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_bwg_image.table.gz - 1.3 KB)
+0019.770 (0) Table welovekittuli_bwg_image_comment: Total expected rows (approximate): 0
+0019.772 (0) Table welovekittuli_bwg_image_comment: Total rows added: 0 in 0.00 seconds
+0019.772 (0) Table welovekittuli_bwg_image_comment: finishing file (backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_bwg_image_comment.table.gz - 0.3 KB)
+0019.776 (0) Table welovekittuli_bwg_image_rate: Total expected rows (approximate): 0
+0019.777 (0) Table welovekittuli_bwg_image_rate: Total rows added: 0 in 0.00 seconds
+0019.778 (0) Table welovekittuli_bwg_image_rate: finishing file (backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_bwg_image_rate.table.gz - 0.3 KB)
+0019.781 (0) Table welovekittuli_bwg_image_tag: Total expected rows (approximate): 0
+0019.782 (0) Table welovekittuli_bwg_image_tag: Total rows added: 0 in 0.00 seconds
+0019.783 (0) Table welovekittuli_bwg_image_tag: finishing file (backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_bwg_image_tag.table.gz - 0.3 KB)
+0019.805 (0) Table welovekittuli_bwg_option: Total expected rows (approximate): 1
+0019.810 (0) Table welovekittuli_bwg_option: Total rows added: 1 in 0.00 seconds
+0019.810 (0) Table welovekittuli_bwg_option: finishing file (backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_bwg_option.table.gz - 1.7 KB)
+0019.823 (0) Table welovekittuli_bwg_shortcode: Total expected rows (approximate): 3
+0019.825 (0) Table welovekittuli_bwg_shortcode: Total rows added: 3 in 0.00 seconds
+0019.826 (0) Table welovekittuli_bwg_shortcode: finishing file (backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_bwg_shortcode.table.gz - 0.9 KB)
+0019.831 (0) Table welovekittuli_bwg_theme: Total expected rows (approximate): 2
+0019.834 (0) Table welovekittuli_bwg_theme: Total rows added: 2 in 0.00 seconds
+0019.835 (0) Table welovekittuli_bwg_theme: finishing file (backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_bwg_theme.table.gz - 3.4 KB)
+0019.837 (0) Table welovekittuli_ewwwio_images: Total expected rows (approximate): 463
+0019.863 (0) Table welovekittuli_ewwwio_images: Total rows added: 463 in 0.02 seconds
+0019.864 (0) Table welovekittuli_ewwwio_images: finishing file (backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_ewwwio_images.table.gz - 13.6 KB)
+0019.886 (0) Table welovekittuli_ngg_album: Total expected rows (approximate): 1
+0019.888 (0) Table welovekittuli_ngg_album: Total rows added: 1 in 0.00 seconds
+0019.889 (0) Table welovekittuli_ngg_album: finishing file (backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_ngg_album.table.gz - 0.5 KB)
+0019.899 (0) Table welovekittuli_ngg_gallery: Total expected rows (approximate): 3
+0019.901 (0) Table welovekittuli_ngg_gallery: Total rows added: 3 in 0.00 seconds
+0019.902 (0) Table welovekittuli_ngg_gallery: finishing file (backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_ngg_gallery.table.gz - 0.5 KB)
+0019.913 (0) Table welovekittuli_ngg_pictures: Total expected rows (approximate): 21
+0019.927 (0) Table welovekittuli_ngg_pictures: Total rows added: 21 in 0.01 seconds
+0019.928 (0) Table welovekittuli_ngg_pictures: finishing file (backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_ngg_pictures.table.gz - 5.1 KB)
+0019.941 (0) Table welovekittuli_nggcf_field_values: Total expected rows (approximate): 3
+0019.944 (0) Table welovekittuli_nggcf_field_values: Total rows added: 3 in 0.00 seconds
+0019.945 (0) Table welovekittuli_nggcf_field_values: finishing file (backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_nggcf_field_values.table.gz - 0.4 KB)
+0019.957 (0) Table welovekittuli_nggcf_fields: Total expected rows (approximate): 1
+0019.959 (0) Table welovekittuli_nggcf_fields: Total rows added: 1 in 0.00 seconds
+0019.960 (0) Table welovekittuli_nggcf_fields: finishing file (backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_nggcf_fields.table.gz - 0.4 KB)
+0019.975 (0) Table welovekittuli_nggcf_fields_link: Total expected rows (approximate): 1
+0019.977 (0) Table welovekittuli_nggcf_fields_link: Total rows added: 1 in 0.00 seconds
+0019.978 (0) Table welovekittuli_nggcf_fields_link: finishing file (backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_nggcf_fields_link.table.gz - 0.3 KB)
+0019.994 (0) Table welovekittuli_wfBadLeechers: Total expected rows (approximate): 0
+0019.996 (0) Table welovekittuli_wfBadLeechers: Total rows added: 0 in 0.00 seconds
+0019.997 (0) Table welovekittuli_wfBadLeechers: finishing file (backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_wfBadLeechers.table.gz - 0.3 KB)
+0020.005 (0) Table welovekittuli_wfBlockedIPLog: Total expected rows (approximate): 52
+0020.009 (0) Table welovekittuli_wfBlockedIPLog: Total rows added: 52 in 0.00 seconds
+0020.009 (0) Table welovekittuli_wfBlockedIPLog: finishing file (backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_wfBlockedIPLog.table.gz - 0.8 KB)
+0020.012 (0) Table welovekittuli_wfBlocks: Total expected rows (approximate): 0
+0020.014 (0) Table welovekittuli_wfBlocks: Total rows added: 0 in 0.00 seconds
+0020.014 (0) Table welovekittuli_wfBlocks: finishing file (backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_wfBlocks.table.gz - 0.4 KB)
+0020.017 (0) Table welovekittuli_wfBlocksAdv: Total expected rows (approximate): 0
+0020.018 (0) Table welovekittuli_wfBlocksAdv: Total rows added: 0 in 0.00 seconds
+0020.019 (0) Table welovekittuli_wfBlocksAdv: finishing file (backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_wfBlocksAdv.table.gz - 0.3 KB)
+0020.021 (0) Table welovekittuli_wfConfig: Total expected rows (approximate): 185
+0020.109 (0) Table welovekittuli_wfConfig: Total rows added: 185 in 0.09 seconds
+0020.110 (0) Table welovekittuli_wfConfig: finishing file (backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_wfConfig.table.gz - 846.3 KB)
+0020.133 (0) Table welovekittuli_wfCrawlers: Total expected rows (approximate): 6
+0020.143 (0) Table welovekittuli_wfCrawlers: Total rows added: 6 in 0.01 seconds
+0020.144 (0) Table welovekittuli_wfCrawlers: finishing file (backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_wfCrawlers.table.gz - 0.5 KB)
+0020.146 (0) Table welovekittuli_wfFileMods: Total expected rows (approximate): 6196
+0020.416 (0) Table welovekittuli_wfFileMods: Total rows added: 6196 in 0.27 seconds
+0020.417 (0) Table welovekittuli_wfFileMods: finishing file (backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_wfFileMods.table.gz - 480.9 KB)
+0020.420 (0) Table welovekittuli_wfHits: Total expected rows (approximate): 1721
+0020.555 (0) Table welovekittuli_wfHits: Total rows added: 1721 in 0.13 seconds
+0020.556 (0) Table welovekittuli_wfHits: finishing file (backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_wfHits.table.gz - 44 KB)
+0020.559 (0) Table welovekittuli_wfHoover: Total expected rows (approximate): 535
+0020.572 (0) Table welovekittuli_wfHoover: Total rows added: 535 in 0.01 seconds
+0020.573 (0) Table welovekittuli_wfHoover: finishing file (backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_wfHoover.table.gz - 6.4 KB)
+0020.575 (0) Table welovekittuli_wfIssues: Total expected rows (approximate): 45
+0020.579 (0) Table welovekittuli_wfIssues: Total rows added: 45 in 0.00 seconds
+0020.580 (0) Table welovekittuli_wfIssues: finishing file (backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_wfIssues.table.gz - 4.4 KB)
+0020.583 (0) Table welovekittuli_wfKnownFileList: Total expected rows (approximate): 6196
+0020.657 (0) Table welovekittuli_wfKnownFileList: Total rows added: 6196 in 0.07 seconds
+0020.658 (0) Table welovekittuli_wfKnownFileList: finishing file (backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_wfKnownFileList.table.gz - 59.3 KB)
+0020.670 (0) Table welovekittuli_wfLeechers: Total expected rows (approximate): 19
+0020.691 (0) Table welovekittuli_wfLeechers: Total rows added: 19 in 0.02 seconds
+0020.692 (0) Table welovekittuli_wfLeechers: finishing file (backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_wfLeechers.table.gz - 0.5 KB)
+0020.695 (0) Table welovekittuli_wfLockedOut: Total expected rows (approximate): 0
+0020.696 (0) Table welovekittuli_wfLockedOut: Total rows added: 0 in 0.00 seconds
+0020.697 (0) Table welovekittuli_wfLockedOut: finishing file (backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_wfLockedOut.table.gz - 0.3 KB)
+0020.701 (0) Table welovekittuli_wfLocs: Total expected rows (approximate): 0
+0020.702 (0) Table welovekittuli_wfLocs: Total rows added: 0 in 0.00 seconds
+0020.703 (0) Table welovekittuli_wfLocs: finishing file (backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_wfLocs.table.gz - 0.4 KB)
+0020.706 (0) Table welovekittuli_wfLogins: Total expected rows (approximate): 501
+0020.736 (0) Table welovekittuli_wfLogins: Total rows added: 501 in 0.03 seconds
+0020.738 (0) Table welovekittuli_wfLogins: finishing file (backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_wfLogins.table.gz - 12.3 KB)
+0020.741 (0) Table welovekittuli_wfNet404s: Total expected rows (approximate): 0
+0020.743 (0) Table welovekittuli_wfNet404s: Total rows added: 0 in 0.00 seconds
+0020.744 (0) Table welovekittuli_wfNet404s: finishing file (backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_wfNet404s.table.gz - 0.3 KB)
+0020.749 (0) Table welovekittuli_wfNotifications: Total expected rows (approximate): 23
+0020.753 (0) Table welovekittuli_wfNotifications: Total rows added: 23 in 0.00 seconds
+0020.754 (0) Table welovekittuli_wfNotifications: finishing file (backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_wfNotifications.table.gz - 3 KB)
+0020.757 (0) Table welovekittuli_wfPendingIssues: Total expected rows (approximate): 64
+0020.764 (0) Table welovekittuli_wfPendingIssues: Total rows added: 64 in 0.01 seconds
+0020.765 (0) Table welovekittuli_wfPendingIssues: finishing file (backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_wfPendingIssues.table.gz - 5.2 KB)
+0020.771 (0) Table welovekittuli_wfReverseCache: Total expected rows (approximate): 0
+0020.774 (0) Table welovekittuli_wfReverseCache: Total rows added: 0 in 0.00 seconds
+0020.775 (0) Table welovekittuli_wfReverseCache: finishing file (backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_wfReverseCache.table.gz - 0.3 KB)
+0020.777 (0) Table welovekittuli_wfSNIPCache: Total expected rows (approximate): 1
+0020.779 (0) Table welovekittuli_wfSNIPCache: Total rows added: 1 in 0.00 seconds
+0020.780 (0) Table welovekittuli_wfSNIPCache: finishing file (backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_wfSNIPCache.table.gz - 0.5 KB)
+0020.783 (0) Table welovekittuli_wfScanners: Total expected rows (approximate): 0
+0020.784 (0) Table welovekittuli_wfScanners: Total rows added: 0 in 0.00 seconds
+0020.785 (0) Table welovekittuli_wfScanners: finishing file (backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_wfScanners.table.gz - 0.3 KB)
+0020.788 (0) Table welovekittuli_wfStatus: Total expected rows (approximate): 1073
+0020.817 (0) Table welovekittuli_wfStatus: Total rows added: 1073 in 0.03 seconds
+0020.818 (0) Table welovekittuli_wfStatus: finishing file (backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_wfStatus.table.gz - 18.1 KB)
+0020.822 (0) Table welovekittuli_wfThrottleLog: Total expected rows (approximate): 0
+0020.824 (0) Table welovekittuli_wfThrottleLog: Total rows added: 0 in 0.00 seconds
+0020.824 (0) Table welovekittuli_wfThrottleLog: finishing file (backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_wfThrottleLog.table.gz - 0.3 KB)
+0020.827 (0) Table welovekittuli_wfVulnScanners: Total expected rows (approximate): 0
+0020.828 (0) Table welovekittuli_wfVulnScanners: Total rows added: 0 in 0.00 seconds
+0020.829 (0) Table welovekittuli_wfVulnScanners: finishing file (backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_wfVulnScanners.table.gz - 0.3 KB)
+0020.831 (0) backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_options.table.gz (1/53): adding to final database dump
+0020.870 (0) backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_users.table.gz (2/53): adding to final database dump
+0020.871 (0) backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_usermeta.table.gz (3/53): adding to final database dump
+0020.890 (0) backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_commentmeta.table.gz (4/53): adding to final database dump
+0020.891 (0) backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_comments.table.gz (5/53): adding to final database dump
+0020.892 (0) backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_links.table.gz (6/53): adding to final database dump
+0020.892 (0) backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_postmeta.table.gz (7/53): adding to final database dump
+0020.899 (0) backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_posts.table.gz (8/53): adding to final database dump
+0020.923 (0) backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_term_relationships.table.gz (9/53): adding to final database dump
+0020.924 (0) backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_term_taxonomy.table.gz (10/53): adding to final database dump
+0020.925 (0) backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_termmeta.table.gz (11/53): adding to final database dump
+0020.926 (0) backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_terms.table.gz (12/53): adding to final database dump
+0020.927 (0) backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_bwg_album.table.gz (13/53): adding to final database dump
+0020.927 (0) backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_bwg_album_gallery.table.gz (14/53): adding to final database dump
+0020.928 (0) backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_bwg_gallery.table.gz (15/53): adding to final database dump
+0020.929 (0) backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_bwg_image.table.gz (16/53): adding to final database dump
+0020.930 (0) backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_bwg_image_comment.table.gz (17/53): adding to final database dump
+0020.931 (0) backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_bwg_image_rate.table.gz (18/53): adding to final database dump
+0020.932 (0) backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_bwg_image_tag.table.gz (19/53): adding to final database dump
+0020.932 (0) backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_bwg_option.table.gz (20/53): adding to final database dump
+0020.934 (0) backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_bwg_shortcode.table.gz (21/53): adding to final database dump
+0020.935 (0) backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_bwg_theme.table.gz (22/53): adding to final database dump
+0020.936 (0) backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_ewwwio_images.table.gz (23/53): adding to final database dump
+0020.942 (0) backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_ngg_album.table.gz (24/53): adding to final database dump
+0020.943 (0) backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_ngg_gallery.table.gz (25/53): adding to final database dump
+0020.944 (0) backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_ngg_pictures.table.gz (26/53): adding to final database dump
+0020.946 (0) backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_nggcf_field_values.table.gz (27/53): adding to final database dump
+0020.947 (0) backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_nggcf_fields.table.gz (28/53): adding to final database dump
+0020.947 (0) backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_nggcf_fields_link.table.gz (29/53): adding to final database dump
+0020.948 (0) backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_wfBadLeechers.table.gz (30/53): adding to final database dump
+0020.949 (0) backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_wfBlockedIPLog.table.gz (31/53): adding to final database dump
+0020.950 (0) backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_wfBlocks.table.gz (32/53): adding to final database dump
+0020.950 (0) backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_wfBlocksAdv.table.gz (33/53): adding to final database dump
+0020.951 (0) backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_wfConfig.table.gz (34/53): adding to final database dump
+0021.000 (0) backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_wfCrawlers.table.gz (35/53): adding to final database dump
+0021.002 (0) backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_wfFileMods.table.gz (36/53): adding to final database dump
+0021.081 (0) backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_wfHits.table.gz (37/53): adding to final database dump
+0021.101 (0) backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_wfHoover.table.gz (38/53): adding to final database dump
+0021.106 (0) backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_wfIssues.table.gz (39/53): adding to final database dump
+0021.108 (0) backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_wfKnownFileList.table.gz (40/53): adding to final database dump
+0021.149 (0) backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_wfLeechers.table.gz (41/53): adding to final database dump
+0021.150 (0) backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_wfLockedOut.table.gz (42/53): adding to final database dump
+0021.151 (0) backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_wfLocs.table.gz (43/53): adding to final database dump
+0021.152 (0) backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_wfLogins.table.gz (44/53): adding to final database dump
+0021.158 (0) backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_wfNet404s.table.gz (45/53): adding to final database dump
+0021.158 (0) backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_wfNotifications.table.gz (46/53): adding to final database dump
+0021.160 (0) backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_wfPendingIssues.table.gz (47/53): adding to final database dump
+0021.162 (0) backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_wfReverseCache.table.gz (48/53): adding to final database dump
+0021.163 (0) backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_wfSNIPCache.table.gz (49/53): adding to final database dump
+0021.163 (0) backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_wfScanners.table.gz (50/53): adding to final database dump
+0021.164 (0) backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_wfStatus.table.gz (51/53): adding to final database dump
+0021.173 (0) backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_wfThrottleLog.table.gz (52/53): adding to final database dump
+0021.174 (0) backup_2017-07-17-2157_Amitayu_4b596c955687-db-table-welovekittuli_wfVulnScanners.table.gz (53/53): adding to final database dump
+0021.175 (0) backup_2017-07-17-2157_Amitayu_4b596c955687-db.gz: finished writing out complete database file (1792 KB)
+0021.203 (0) Total database tables backed up: 53 (backup_2017-07-17-2157_Amitayu_4b596c955687-db.gz, size: 1854455, sha256)
+0021.207 (0) backup_2017-07-17-2157_Amitayu_4b596c955687-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0021.208 (0) backup_2017-07-17-2157_Amitayu_4b596c955687-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0021.208 (0) backup_2017-07-17-2157_Amitayu_4b596c955687-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0021.209 (0) backup_2017-07-17-2157_Amitayu_4b596c955687-others.zip: others: This file has not yet been successfully uploaded: will queue
+0021.209 (0) backup_2017-07-17-2157_Amitayu_4b596c955687-db.gz: db: This file has not yet been successfully uploaded: will queue
+0021.210 (0) Saving backup history. Total backup size: 103.8 MB
+0021.212 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0021.214 (0) Cloud backup selection (1/1): ftp (last)
+0021.214 (0) Beginning dispatch of backup to remote (ftp)
+0021.431 (0) FTP upload attempt: backup_2017-07-17-2157_Amitayu_4b596c955687-plugins.zip -> ftp://amitayuc@162.223.192.250//backup_2017-07-17-2157_Amitayu_4b596c955687-plugins.zip
+0021.454 (0) Ftp chunked upload: 1.9 % uploaded
+0021.467 (0) Ftp chunked upload: 3.8 % uploaded
+0021.479 (0) Ftp chunked upload: 5.7 % uploaded
+0021.492 (0) Ftp chunked upload: 7.5 % uploaded
+0021.513 (0) Ftp chunked upload: 11.3 % uploaded
+0021.535 (0) Ftp chunked upload: 15 % uploaded
+0021.576 (0) Ftp chunked upload: 22.5 % uploaded
+0021.618 (0) Ftp chunked upload: 30 % uploaded
+0021.659 (0) Ftp chunked upload: 37.5 % uploaded
+0021.703 (0) Ftp chunked upload: 45 % uploaded
+0021.745 (0) Ftp chunked upload: 52.5 % uploaded
+0021.786 (0) Ftp chunked upload: 60 % uploaded
+0021.828 (0) Ftp chunked upload: 67.5 % uploaded
+0021.878 (0) Ftp chunked upload: 75 % uploaded
+0021.930 (0) Ftp chunked upload: 82.4 % uploaded
+0021.982 (0) Ftp chunked upload: 89.9 % uploaded
+0022.035 (0) Ftp chunked upload: 97.4 % uploaded
+0022.109 (0) FTP upload attempt successful (27389.8KB in 0.68s)
+0022.111 (0) Recording as successfully uploaded: backup_2017-07-17-2157_Amitayu_4b596c955687-plugins.zip (28d886d3fbbd0111b2102ae7500bb46b)
+0022.120 (0) Deleting local file: backup_2017-07-17-2157_Amitayu_4b596c955687-plugins.zip: OK
+0022.121 (0) FTP upload attempt: backup_2017-07-17-2157_Amitayu_4b596c955687-themes.zip -> ftp://amitayuc@162.223.192.250//backup_2017-07-17-2157_Amitayu_4b596c955687-themes.zip
+0022.134 (0) Ftp chunked upload: 8.8 % uploaded
+0022.147 (0) Ftp chunked upload: 17.6 % uploaded
+0022.160 (0) Ftp chunked upload: 26.4 % uploaded
+0022.173 (0) Ftp chunked upload: 35.2 % uploaded
+0022.196 (0) Ftp chunked upload: 52.7 % uploaded
+0022.219 (0) Ftp chunked upload: 70.2 % uploaded
+0022.256 (0) FTP upload attempt successful (5864.6KB in 0.13s)
+0022.258 (0) Recording as successfully uploaded: backup_2017-07-17-2157_Amitayu_4b596c955687-themes.zip (0ab80f37048d1fdc1f6a22ce48b28dee)
+0022.262 (0) Deleting local file: backup_2017-07-17-2157_Amitayu_4b596c955687-themes.zip: OK
+0022.262 (0) FTP upload attempt: backup_2017-07-17-2157_Amitayu_4b596c955687-uploads.zip -> ftp://amitayuc@162.223.192.250//backup_2017-07-17-2157_Amitayu_4b596c955687-uploads.zip
+0022.275 (0) Ftp chunked upload: 1 % uploaded
+0022.287 (0) Ftp chunked upload: 2.1 % uploaded
+0022.300 (0) Ftp chunked upload: 3.1 % uploaded
+0022.313 (0) Ftp chunked upload: 4.1 % uploaded
+0022.336 (0) Ftp chunked upload: 6.2 % uploaded
+0022.359 (0) Ftp chunked upload: 8.3 % uploaded
+0022.403 (0) Ftp chunked upload: 12.4 % uploaded
+0022.446 (0) Ftp chunked upload: 16.5 % uploaded
+0022.491 (0) Ftp chunked upload: 20.6 % uploaded
+0022.536 (0) Ftp chunked upload: 24.7 % uploaded
+0022.580 (0) Ftp chunked upload: 28.8 % uploaded
+0022.623 (0) Ftp chunked upload: 33 % uploaded
+0022.667 (0) Ftp chunked upload: 37.1 % uploaded
+0022.711 (0) Ftp chunked upload: 41.2 % uploaded
+0022.755 (0) Ftp chunked upload: 45.3 % uploaded
+0022.799 (0) Ftp chunked upload: 49.4 % uploaded
+0022.842 (0) Ftp chunked upload: 53.5 % uploaded
+0022.884 (0) Ftp chunked upload: 57.7 % uploaded
+0022.927 (0) Ftp chunked upload: 61.8 % uploaded
+0022.970 (0) Ftp chunked upload: 65.9 % uploaded
+0023.012 (0) Ftp chunked upload: 70 % uploaded
+0023.055 (0) Ftp chunked upload: 74.1 % uploaded
+0023.097 (0) Ftp chunked upload: 78.2 % uploaded
+0023.140 (0) Ftp chunked upload: 82.3 % uploaded
+0023.183 (0) Ftp chunked upload: 86.5 % uploaded
+0023.226 (0) Ftp chunked upload: 90.6 % uploaded
+0023.269 (0) Ftp chunked upload: 94.7 % uploaded
+0023.312 (0) Ftp chunked upload: 98.8 % uploaded
+0023.325 (0) FTP upload attempt successful (49845.2KB in 1.06s)
+0023.327 (0) Recording as successfully uploaded: backup_2017-07-17-2157_Amitayu_4b596c955687-uploads.zip (d9ac0bcf1e2c75135ab1a4dc7ce25f6b)
+0023.341 (0) Deleting local file: backup_2017-07-17-2157_Amitayu_4b596c955687-uploads.zip: OK
+0023.342 (0) FTP upload attempt: backup_2017-07-17-2157_Amitayu_4b596c955687-others.zip -> ftp://amitayuc@162.223.192.250//backup_2017-07-17-2157_Amitayu_4b596c955687-others.zip
+0023.354 (0) Ftp chunked upload: 2.4 % uploaded
+0023.366 (0) Ftp chunked upload: 4.8 % uploaded
+0023.379 (0) Ftp chunked upload: 7.3 % uploaded
+0023.391 (0) Ftp chunked upload: 9.7 % uploaded
+0023.414 (0) Ftp chunked upload: 14.5 % uploaded
+0023.436 (0) Ftp chunked upload: 19.3 % uploaded
+0023.479 (0) Ftp chunked upload: 28.9 % uploaded
+0023.529 (0) Ftp chunked upload: 38.5 % uploaded
+0023.580 (0) Ftp chunked upload: 48.1 % uploaded
+0023.632 (0) Ftp chunked upload: 57.8 % uploaded
+0023.683 (0) Ftp chunked upload: 67.4 % uploaded
+0023.735 (0) Ftp chunked upload: 77 % uploaded
+0023.784 (0) Ftp chunked upload: 86.6 % uploaded
+0023.834 (0) Ftp chunked upload: 96.2 % uploaded
+0023.854 (0) FTP upload attempt successful (21340.4KB in 0.51s)
+0023.856 (0) Recording as successfully uploaded: backup_2017-07-17-2157_Amitayu_4b596c955687-others.zip (9a9c07d1d7915a6d4e67ff2489c1cb9d)
+0023.865 (0) Deleting local file: backup_2017-07-17-2157_Amitayu_4b596c955687-others.zip: OK
+0023.866 (0) FTP upload attempt: backup_2017-07-17-2157_Amitayu_4b596c955687-db.gz -> ftp://amitayuc@162.223.192.250//backup_2017-07-17-2157_Amitayu_4b596c955687-db.gz
+0023.880 (0) Ftp chunked upload: 28.5 % uploaded
+0023.894 (0) Ftp chunked upload: 57 % uploaded
+0023.909 (0) Ftp chunked upload: 85.5 % uploaded
+0023.917 (0) FTP upload attempt successful (1811KB in 0.05s)
+0023.919 (0) Recording as successfully uploaded: backup_2017-07-17-2157_Amitayu_4b596c955687-db.gz (b4cb8ba8f3ea38e8ad89d3a6d17b6062)
+0023.923 (0) Deleting local file: backup_2017-07-17-2157_Amitayu_4b596c955687-db.gz: OK
+0023.925 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0023.926 (0) Number of backup sets in history: 3; groups (db): 1
+0023.926 (0) Examining (for databases) backup set with group_id=0, nonce=4b596c955687, datestamp=1500308847 (Jul 17 2017 16:27:27)
+0023.927 (0) This backup set is the backup set just made, so will not be deleted.
+0023.928 (0) Examining (for databases) backup set with group_id=0, nonce=79fd1e596809, datestamp=1500219598 (Jul 16 2017 15:39:58)
+0023.928 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0023.929 (0) Examining (for databases) backup set with group_id=0, nonce=42ab2c0597bf, datestamp=1500147850 (Jul 15 2017 19:44:10)
+0023.930 (0) 1500147850: db: this set includes a database (backup_2017-07-16-0114_Amitayu_42ab2c0597bf-db.gz); db count is now 2
+0023.930 (0) 1500147850: db: over retain limit (2); will delete this database
+0023.931 (0) Delete file: backup_2017-07-16-0114_Amitayu_42ab2c0597bf-db.gz, service=ftp
+0023.932 (0) FTP delete: succeeded (/backup_2017-07-16-0114_Amitayu_42ab2c0597bf-db.gz)
+0023.934 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0023.934 (0) Number of backup sets in history: 3; groups (files): 1
+0023.935 (0) Examining (for files) backup set with nonce=4b596c955687, datestamp=1500308847 (Jul 17 2017 16:27:27)
+0023.936 (0) This backup set is the backup set just made, so will not be deleted.
+0023.936 (0) This backup set is the backup set just made, so will not be deleted.
+0023.936 (0) This backup set is the backup set just made, so will not be deleted.
+0023.937 (0) This backup set is the backup set just made, so will not be deleted.
+0023.937 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0023.938 (0) Examining (for files) backup set with nonce=79fd1e596809, datestamp=1500219598 (Jul 16 2017 15:39:58)
+0023.938 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0023.939 (0) Examining (for files) backup set with nonce=42ab2c0597bf, datestamp=1500147850 (Jul 15 2017 19:44:10)
+0023.940 (0) plugins: over retain limit (2); will delete this file entity
+0023.940 (0) themes: over retain limit (2); will delete this file entity
+0023.941 (0) uploads: over retain limit (2); will delete this file entity
+0023.942 (0) others: over retain limit (2); will delete this file entity
+0023.942 (0) Delete file: backup_2017-07-16-0114_Amitayu_42ab2c0597bf-plugins.zip, service=ftp
+0023.943 (0) Delete file: backup_2017-07-16-0114_Amitayu_42ab2c0597bf-themes.zip, service=ftp
+0023.944 (0) Delete file: backup_2017-07-16-0114_Amitayu_42ab2c0597bf-uploads.zip, service=ftp
+0023.945 (0) Delete file: backup_2017-07-16-0114_Amitayu_42ab2c0597bf-others.zip, service=ftp
+0023.969 (0) FTP delete: succeeded (/backup_2017-07-16-0114_Amitayu_42ab2c0597bf-plugins.zip)
+0023.978 (0) FTP delete: succeeded (/backup_2017-07-16-0114_Amitayu_42ab2c0597bf-themes.zip)
+0023.980 (0) FTP delete: succeeded (/backup_2017-07-16-0114_Amitayu_42ab2c0597bf-uploads.zip)
+0023.988 (0) FTP delete: succeeded (/backup_2017-07-16-0114_Amitayu_42ab2c0597bf-others.zip)
+0023.990 (0) This backup set is now empty; will remove from history
+0023.991 (0) Deleting log file (log.42ab2c0597bf.txt)
+0023.992 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0023.995 (0) Resume backup (4b596c955687, 0): finish run
+0023.997 (0) Decremented the semaphore (fd) by 1
+0023.998 (0) Semaphore (fd) unlocked
+0023.998 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0024.002 (0) No email will/can be sent - the user has not configured an email address.
+0024.002 (0) The backup apparently succeeded and is now complete

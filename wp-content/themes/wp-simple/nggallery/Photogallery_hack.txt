@@ -1,0 +1,26 @@
+NextGen Gallery customization of image links
+
+http://www.kimwoodbridge.com/link-nextgen-gallery-to-a-post-or-page-version-2-0/
+
+
+Install and activate the NextGen Custom Fields plugin
+Create a custom field
+
+
+Located in:
+ wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/ngglegacy/view
+
+Edit these files:
+gallery.php, gallery-caption.php, and gallery-carousel.php
+
+Edit this:
+<?php echo nextgen_esc_url($image->imageURL) ?>
+To:
+<?php echo $image->ngg_custom_fields["Link"]; ?>
+
+Turn Off Lightbox
+Lightbox must be turned off in NextGen Gallery for the link to work. Go to Gallery > Other Options > Lightbox Effects > change to none.
+
+
+Adding Gallery
+When you add a gallery to a page, make sure you select the correct template. This is under the Customize the Display settings section. You will want to select NextGEN Legacy gallery.php
